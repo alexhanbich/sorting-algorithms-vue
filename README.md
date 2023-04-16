@@ -1,1 +1,1 @@
-### Sorting Algorithms in Vue
+# Sorting Algorithms in Vue
