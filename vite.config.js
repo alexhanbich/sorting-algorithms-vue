@@ -10,11 +10,8 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
-})
-
-module.exports = {
+  },
   publicPath: process.env.NODE_ENV === 'production'
     ? '/sorting-visualized-vue/'
     : '/'
-}
+})
