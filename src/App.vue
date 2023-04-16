@@ -99,7 +99,7 @@ export default {
   </div>
   <div class="inputs">
     <div class="input-container">
-      <p>Size: </p>
+      <p>Array Size: </p>
       <input v-model="size" type="range" min="10" max="100" class="slider" />
       <input v-model="size" type="number" />
       <button @click="generateArray()">Generate Array</button>
